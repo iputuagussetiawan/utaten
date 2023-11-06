@@ -1,0 +1,57 @@
+.member-registration {
+  padding-top: 30px;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+.member-registration__title {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.member-registration__container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.member-registration__desc {
+  margin-bottom: 25px;
+}
+.member-registration__card {
+  width: 100%;
+  padding: 20px;
+  background-color: #F7F7F7;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.member-registration__input-group {
+  margin-bottom: 10px;
+}
+.member-registration__label {
+  width: 100%;
+  font-size: 16.5px;
+  color: #222222;
+}
+.member-registration__info {
+  font-size: 13.5px;
+  color: #222222;
+}
+.member-registration__input {
+  padding: 10.5px;
+  color: #222222;
+}
+.member-registration__input:focus {
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+.member-registration__input:active {
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+.member-registration__btn {
+  width: 100%;
+  padding: 16.5px 0px;
+  border-radius: 4px;
+  background-color: #e80;
+  color: #fff;
+  border: 1px solid #d87b00;
+}

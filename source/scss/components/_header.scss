@@ -1,0 +1,178 @@
+@use "../config" as *; 
+
+.custom-navbar {
+    background-color: #222222 !important;
+
+    &__container {
+        max-width: 950px;
+        padding: 15px 10px;
+    }
+
+    &__logo {
+        background-image: url('../../../assets/images/logo.png');
+        width: 27%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+        text-indent: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        background-position: center;
+    }
+
+    &__item {
+        color: white;
+        display: inline-flex;
+        align-items: center;
+        &:hover{
+            color: white;
+        }
+    }
+
+    &__icon {
+        &--cart {
+            width: 17px;
+            height: 17px;
+            margin-right: 5px;
+        }
+
+        &--pencil {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+        }
+
+        &--key {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    }
+
+    &__item-container {
+        margin-left: 15px;
+    }
+
+    &__nav {
+        flex-direction: row;
+    }
+
+    @media screen and (max-width: 767.98px) {
+        padding: 0;
+
+        &__container {
+            padding: 0px 10px;
+        }
+
+        &__item {
+            flex-direction: column;
+            margin-right: 5px;
+        }
+
+        &__icon {
+            &--cart {
+                width: 20px;
+                height: 20px;
+                margin-right: 0px;
+            }
+
+            &--pencil {
+                width: 20px;
+                height: 20px;
+                margin-right: 0px;
+            }
+
+            &--key {
+                width: 20px;
+                height: 20px;
+                margin-right: 0px;
+            }
+        }
+    }
+    @media screen and (max-width: 475px) {
+        &__logo {
+            width: 30%;
+        }
+        &__item {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        &__item {
+            font-size: 10px;
+        }
+    }
+}
+
+.navbar-top{
+    position: relative;
+    &__bg{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        min-height: 100px;
+    }
+    &__container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        text-align: center;
+    }
+
+    &__logo{
+        max-width: 240px;
+        height: auto;
+    }
+
+    &__btn{
+        position: absolute;
+        top: 50%;
+        right: 24px;
+        transform: translateY(-50%);
+        font-size: 22px;
+        background: #709FE0;
+        color: #fff;
+        border: 1px solid #709FE0;
+        &:hover{
+            filter: brightness(1.5);
+            background: #709FE0;
+            color: #fff;
+            border: 1px solid #709FE0;
+        }
+    }
+}
+
+.navbar-simple{
+    padding: 0px;
+    background: #2a2c36;
+
+    .navbar-nav{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        width: 100%;
+        .nav-item{
+            .nav-link{
+                text-align: center;
+                display: block;
+                color: #fff;
+                line-height: 2.5em;
+                text-decoration: none;
+
+                &:hover{
+                    position: relative;
+                    margin-bottom: -3px;
+                    border-bottom: 3px solid #e06f9f;
+                    z-index: 10;
+                }
+            }
+
+            &:nth-child(odd) .nav-link{
+                background-image: linear-gradient( -45deg, #2a2c36 25%, #55565f 25%, #55565f 50%, #2a2c36 50%, #2a2c36 75%, #55565f 75%, #55565f );
+                background-size: 50px 50px;
+            }
+        }
+    }
+}

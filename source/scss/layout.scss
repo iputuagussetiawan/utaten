@@ -1,0 +1,38 @@
+@use 'sass:map';
+@use 'sass:math';
+@use '_config.scss' as *;
+// @use 'plugin/bootstrap/bootstrap.scss' with (
+//     $container-max-widths: (
+//         sm: 540px,
+//         md: 720px,
+//         lg: 960px,
+//         xl: 1140px,
+//         xxl: 90%
+//     ),
+// );
+@use 'plugin/_tmdrPreset.scss' with ($spacingIncrement: 15,
+);
+
+// @font-face {
+//     font-family: Hiragino;
+//     src: url('../font/Hiragino\ Kaku\ Gothic\ ProN/') format(otf);
+// }
+@use '../../node_modules/bootstrap/scss/bootstrap.scss';
+@use '../../node_modules/swiper/swiper.scss';
+@use 'components/header';
+@use 'components/footer';
+
+
+
+// |‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾| //
+// | Timedoor New Standard                   | //
+// |_________________________________________| //
+
+.ratio-item {
+    @extend %ratioItem;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F8F8F8;
+}

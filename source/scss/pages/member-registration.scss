@@ -1,0 +1,68 @@
+@use "../config" as *;
+
+.member-registration {
+    padding-top: 30px;
+    background-color: #fff;
+    padding-bottom: 30px;
+
+    &__title {
+        font-size: 27px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    &__container {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__desc {
+        margin-bottom: 25px;
+    }
+
+    &__card {
+        width: 100%;
+        padding: 20px;
+        background-color: #F7F7F7;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+
+    &__input-group {
+        margin-bottom: 10px;
+    }
+
+    &__label {
+        width: 100%;
+        font-size: 16.5px;
+        color: #222222;
+    }
+
+    &__info {
+        font-size: 13.5px;
+        color: #222222;
+    }
+    
+    &__input {
+        padding: 10.5px;
+        color: #222222;
+        &:focus {
+            box-shadow: none;
+            border: 1px solid #ddd;
+        }
+        &:active {
+            box-shadow: none;
+            border: 1px solid #ddd;
+        }
+    }
+
+    &__btn {
+        width: 100%;
+        padding: 16.5px 0px;
+        border-radius: 4px;
+        background-color: #e80;
+        color: #fff;
+        border: 1px solid #d87b00;
+    }
+}

@@ -1,0 +1,63 @@
+@use "../config" as *;
+
+body{
+    background: url('../../../assets/images/bg-body.jpg');
+}
+
+.agreement{
+    &__title{
+        margin: 32px 0px;
+        text-align: center;
+        border-bottom: solid 3px #777;
+        color: #777;
+        line-height: 1.6;
+        font-weight: 700;
+    }
+    &__inner{
+        padding: 15px;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+    }
+
+    &__content{
+        width: 80%;
+        margin: 0 auto;
+
+        h3{
+            margin: 42px 0px;
+            font-size: 25.74px;
+            border-bottom: 1px solid #777;
+            color: #777;
+            font-weight: 700;
+
+        }
+
+        p, li{
+            color: #777;
+            font-size: 22px;
+            line-height: 1.6;
+        }
+        p{
+            margin: 24px 0px;
+        }
+    }
+
+    @media only screen and (max-width: 1399.98px) {
+        &__content{
+            width: 80%;
+            margin: 0 auto;
+    
+            h3{
+                margin: 42px 0px;
+                font-size: 22px;
+            }
+    
+            p, li{
+                font-size: 16px;
+            }
+            p{
+                margin: 18px 0px;
+            }
+        }
+    }
+}
