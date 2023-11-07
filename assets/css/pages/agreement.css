@@ -41,6 +41,27 @@ body {
   padding: 0px 10px;
   margin: 24px 0px;
 }
+.agreement__tbl {
+  width: 80%;
+  margin: 0 auto;
+}
+.agreement__tbl th {
+  background-color: #eee;
+  border: solid 1px #ccc;
+  color: #777;
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+}
+.agreement__tbl td {
+  padding: 20px;
+  border: solid 1px #eee;
+  font-size: 20px;
+}
+.agreement__tbl a {
+  color: #000;
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1399.98px) {
   .agreement__content {
     width: 80%;
