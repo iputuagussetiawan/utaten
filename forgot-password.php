@@ -21,7 +21,7 @@
             <div class="login__card">
                 <div class="login__input-group">
                     <label for="inputEmail" class="login__label form-label">メールアドレス</label>
-                    <input type="email" name="inputEmail" class="login__input form-control">
+                    <input type="email" id="inputEmail" name="inputEmail" class="login__input form-control">
                 </div>
                 <div class="login__input-group">
                     <button class="login__btn">パスワード再発行</button>

@@ -19,11 +19,11 @@
             <div class="login__card">
                 <div class="login__input-group">
                     <label for="inputEmail" class="login__label form-label">メールアドレス</label>
-                    <input type="email" name="inputEmail" class="login__input form-control">
+                    <input type="email" id="inputEmail" name="inputEmail" class="login__input form-control">
                 </div>
                 <div class="login__input-group">
-                    <label for="inputpassword" class="login__label form-label">パスワード</label>
-                    <input type="password" name="inputPassword" class="login__input form-control">
+                    <label for="inputPassword" class="login__label form-label">パスワード</label>
+                    <input type="password" id="inputPassword" name="inputPassword" class="login__input form-control">
                 </div>
                 <div class="login__input-group">
                     <button class="login__btn">登録する</button>

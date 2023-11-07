@@ -165,7 +165,7 @@
                                 <input type="email" name="customerEmail" id="customerEmail" class="card-form__input form-control">
                             </div>
                             <div class="card-form__input-group">
-                                <label for="subject" class="card-form__label form-label">お問い合わせ対象のアーティスト</label>
+                                <label for="customerSubject" class="card-form__label form-label">お問い合わせ対象のアーティスト</label>
                                 <input type="text" name="customerSubject" id="customerSubject" class="card-form__input form-control">
                             </div>
                             <div class="card-form__input-group">

@@ -22,6 +22,11 @@
 @use 'components/header';
 @use 'components/footer';
 
+@font-face {
+    font-family: 'Hiragino Kaku Gothic ProN W3';
+    src: url('/source/font/Hiragino/HiraginoKakuGothicProNW3.otf');
+}
+
 
 
 // |‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾| //
@@ -42,7 +47,7 @@
 
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Hiragino Kaku Gothic ProN W3';
     background-color: #F8F8F8;
 }
 

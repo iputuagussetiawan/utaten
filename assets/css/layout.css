@@ -12951,13 +12951,17 @@ textarea.form-control-lg {
   }
 }
 
+@font-face {
+  font-family: "Hiragino Kaku Gothic ProN W3";
+  src: url("/source/font/Hiragino/HiraginoKakuGothicProNW3.otf");
+}
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 950px;
   }
 }
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN W3";
   background-color: #F8F8F8;
 }
 

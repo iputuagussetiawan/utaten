@@ -9,7 +9,6 @@
     <link href="assets/css/pages/member-registration.css" rel="stylesheet" />
     <link rel="shortcut icon" href="/../assets/images/favicon.ico"/>
 </head>
-
 <body>
     <?php include_once './partial/header.php'; ?>
     <div class="member-registration">
@@ -26,16 +25,16 @@
             <div class="member-registration__card">
                 <div class="member-registration__input-group">
                     <label for="inputEmail" class="member-registration__label form-label">メールアドレス</label>
-                    <input type="email" name="inputEmail" class="member-registration__input form-control">
+                    <input type="email" id="inputEmail" name="inputEmail" class="member-registration__input form-control">
                 </div>
                 <div class="member-registration__input-group">
-                    <label for="inputpassword" class="member-registration__label form-label">パスワード</label>
+                    <label for="inputPassword" class="member-registration__label form-label">パスワード</label>
                     <span class="member-registration__info">※8文字以上の英数字をご入力ください</span>
-                    <input type="password" name="inputPassword" class="member-registration__input form-control">
+                    <input type="password" id="inputPassword" name="inputPassword" class="member-registration__input form-control">
                 </div>
                 <div class="member-registration__input-group">
                     <label for="inputPasswordConfirmation" class="member-registration__label form-label">パスワード確認</label>
-                    <input type="password" class="member-registration__input form-control">
+                    <input type="password" id="inputPasswordConfirmation" name="inputPasswordConfirmation" class="member-registration__input form-control">
                 </div>
                 <div class="member-registration__input-group">
                     <button class="member-registration__btn" type="submit">登録する</button>
