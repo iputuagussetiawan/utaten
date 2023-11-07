@@ -70,7 +70,7 @@
                         <a href="/agreement.php" class="footer__menu-link">利用規約</a>
                     </div>
                     <div class="col-3 col-md-3 col-lg-3  footer__menu-link-container">
-                        <a href="#" class="footer__menu-link">プライバシーポリシー</a>
+                        <a href="/privacy.php" class="footer__menu-link">プライバシーポリシー</a>
                     </div>
                     <div class="col-3 col-md-3 col-lg-3 footer__menu-link-container">
                         <a href="#" class="footer__menu-link">特定商取引法に基づく表示</a>

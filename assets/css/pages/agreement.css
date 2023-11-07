@@ -4,10 +4,11 @@ body {
 
 .agreement__title {
   margin: 32px 0px;
+  font-size: 32px;
   text-align: center;
   border-bottom: solid 3px #777;
   color: #777;
-  line-height: 1.6;
+  line-height: 2;
   font-weight: 700;
 }
 .agreement__inner {
@@ -16,22 +17,28 @@ body {
   background-color: #ffffff;
 }
 .agreement__content {
+  padding: 10px;
   width: 80%;
   margin: 0 auto;
 }
 .agreement__content h3 {
-  margin: 42px 0px;
-  font-size: 25.74px;
+  margin: 32px 0px;
+  padding: 10px;
+  font-size: 22px;
   border-bottom: 1px solid #777;
   color: #777;
   font-weight: 700;
 }
+.agreement__content ul, .agreement__content ol {
+  padding: 10px 10px 10px 30px;
+}
 .agreement__content p, .agreement__content li {
   color: #777;
-  font-size: 22px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 2;
 }
 .agreement__content p {
+  padding: 0px 10px;
   margin: 24px 0px;
 }
 @media only screen and (max-width: 1399.98px) {

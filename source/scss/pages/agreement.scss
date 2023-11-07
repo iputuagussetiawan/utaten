@@ -7,10 +7,11 @@ body{
 .agreement{
     &__title{
         margin: 32px 0px;
+        font-size: 32px;
         text-align: center;
         border-bottom: solid 3px #777;
         color: #777;
-        line-height: 1.6;
+        line-height: 2;
         font-weight: 700;
     }
     &__inner{
@@ -20,24 +21,30 @@ body{
     }
 
     &__content{
+        padding: 10px;
         width: 80%;
         margin: 0 auto;
 
         h3{
-            margin: 42px 0px;
-            font-size: 25.74px;
+            margin: 32px 0px;
+            padding:10px;
+            font-size: 22px;
             border-bottom: 1px solid #777;
             color: #777;
             font-weight: 700;
 
         }
+        ul,ol{
+            padding: 10px 10px 10px 30px;
+        }
 
         p, li{
             color: #777;
-            font-size: 22px;
-            line-height: 1.6;
+            font-size: 18px;
+            line-height: 2;
         }
         p{
+            padding: 0px  10px;
             margin: 24px 0px;
         }
     }
