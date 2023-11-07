@@ -12538,7 +12538,8 @@ textarea.form-control-lg {
 }
 .custom-navbar__logo {
   background-image: url("../../../assets/images/logo.png");
-  width: 27%;
+  width: 100%;
+  max-width: 220px;
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
@@ -12636,7 +12637,7 @@ textarea.form-control-lg {
   text-align: center;
 }
 .navbar-top__logo {
-  max-width: 240px;
+  max-width: 220px;
   height: auto;
 }
 .navbar-top__btn {
@@ -12950,7 +12951,16 @@ textarea.form-control-lg {
   }
 }
 
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 950px;
+  }
+}
 body {
   font-family: "Nunito", sans-serif;
   background-color: #F8F8F8;
+}
+
+hr {
+  border-top: 1px solid #959494;
 }

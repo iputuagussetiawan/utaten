@@ -1,0 +1,37 @@
+@use "../../config" as *; 
+
+
+.card-info{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+
+    &__content{
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+
+        &:last-child{
+            border-bottom: none;
+            margin-bottom: 0px;
+        }
+
+        p{
+            margin-bottom: 4px;
+        }
+
+        ul{
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    &__title{
+        margin-bottom: 24px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 8px;
+        border-left: 6px solid orange;
+    }
+}

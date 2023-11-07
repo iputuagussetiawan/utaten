@@ -1,0 +1,45 @@
+@use "../../config" as *; 
+
+.accordion-custom{
+    margin-bottom: 42px;
+    .accordion-item{
+        margin-bottom: 15px;
+        border-radius: 10px;
+        border: 1px solid  #e5e5e5; 
+        &:not(:first-of-type) {
+            border-top: 1px solid  #e5e5e5; 
+        }
+        .accordion-header{
+            .accordion-button{
+                border-radius: 10px;
+                font-weight: 600;
+                svg{
+                    margin-right: 14px;
+                    path{
+                        fill: orange;
+                    }
+                }
+                &::after{
+                    display: none;
+                }
+                &:focus{
+                    box-shadow: unset;
+                }
+                &:not(.collapsed) {
+                    color: #000;
+                    background-color:#ffff;
+                    box-shadow: unset;
+                }
+
+            }
+        }
+        .accordion-body{
+            border-top: 1px dashed #ddd;
+
+            a{
+                color:  #f6542c;
+                text-decoration: underline;
+            }
+        }
+    }
+}

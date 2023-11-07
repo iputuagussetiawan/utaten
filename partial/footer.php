@@ -67,7 +67,7 @@
                 </div>
                 <div class="row footer__menu-container text-center">
                     <div class="col-2 col-md-2 col-lg-2 footer__menu-link-container">
-                        <a href="#" class="footer__menu-link">利用規約</a>
+                        <a href="/agreement.php" class="footer__menu-link">利用規約</a>
                     </div>
                     <div class="col-3 col-md-3 col-lg-3  footer__menu-link-container">
                         <a href="#" class="footer__menu-link">プライバシーポリシー</a>
@@ -76,7 +76,7 @@
                         <a href="#" class="footer__menu-link">特定商取引法に基づく表示</a>
                     </div>
                     <div class="col-4 col-md-4 col-lg-4 footer__menu-link-container">
-                        <a href="#" class="footer__menu-link">よくある質問・お問い合わせ</a>
+                        <a href="/inquiry.php" class="footer__menu-link">よくある質問・お問い合わせ</a>
                     </div>
                 </div>
             </div>

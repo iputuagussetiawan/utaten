@@ -10,7 +10,8 @@
 
     &__logo {
         background-image: url('../../../assets/images/logo.png');
-        width: 27%;
+        width: 100%;
+        max-width: 220px;
         background-size: contain;
         background-repeat: no-repeat;
         display: block;
@@ -123,7 +124,7 @@
     }
 
     &__logo{
-        max-width: 240px;
+        max-width: 220px;
         height: auto;
     }
 

@@ -1,0 +1,133 @@
+.accordion-custom {
+  margin-bottom: 42px;
+}
+.accordion-custom .accordion-item {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+.accordion-custom .accordion-item:not(:first-of-type) {
+  border-top: 1px solid #e5e5e5;
+}
+.accordion-custom .accordion-item .accordion-header .accordion-button {
+  border-radius: 10px;
+  font-weight: 600;
+}
+.accordion-custom .accordion-item .accordion-header .accordion-button svg {
+  margin-right: 14px;
+}
+.accordion-custom .accordion-item .accordion-header .accordion-button svg path {
+  fill: orange;
+}
+.accordion-custom .accordion-item .accordion-header .accordion-button::after {
+  display: none;
+}
+.accordion-custom .accordion-item .accordion-header .accordion-button:focus {
+  box-shadow: unset;
+}
+.accordion-custom .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: white;
+  box-shadow: unset;
+}
+.accordion-custom .accordion-item .accordion-body {
+  border-top: 1px dashed #ddd;
+}
+.accordion-custom .accordion-item .accordion-body a {
+  color: #f6542c;
+  text-decoration: underline;
+}
+
+.card-form {
+  width: 100%;
+  padding: 20px;
+  background-color: #F7F7F7;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.card-form__input-group {
+  margin-bottom: 10px;
+}
+.card-form__label {
+  width: 100%;
+  font-size: 16.5px;
+  color: #222222;
+}
+.card-form__input {
+  padding: 10.5px;
+  color: #222222;
+}
+.card-form__input:focus {
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+.card-form__input:active {
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+.card-form__btn {
+  width: 100%;
+  padding: 16.5px 0px;
+  border-radius: 4px;
+  background-color: #e80;
+  color: #fff;
+  border: 1px solid #d87b00;
+}
+.card-form__btn-register {
+  width: 100%;
+  padding: 16.5px 0px;
+  border-radius: 4px;
+  background-color: #525252;
+  color: #fff;
+  border: 1px solid #545454;
+}
+.card-form__btn-register:hover {
+  background-color: #525252;
+  color: #fff;
+  border: 1px solid #545454;
+}
+
+.card-info {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 16px;
+}
+.card-info__content {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+.card-info__content:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+.card-info__content p {
+  margin-bottom: 4px;
+}
+.card-info__content ul:last-child {
+  margin-bottom: 0px;
+}
+.card-info__title {
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 8px;
+  border-left: 6px solid orange;
+}
+
+body {
+  background-color: #fff;
+}
+
+.inquiry__title {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 42px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+.inquiry__description {
+  margin: 24px 0px;
+  text-align: center;
+}

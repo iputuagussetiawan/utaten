@@ -32,7 +32,20 @@
     @extend %ratioItem;
 }
 
+@media (min-width: 1200px){
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 950px;
+    }
+}
+
+
+
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #F8F8F8;
+}
+
+hr{
+    border-top: 1px solid #959494;
 }

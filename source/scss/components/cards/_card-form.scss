@@ -1,0 +1,57 @@
+@use "../../config" as *; 
+
+.card-form{
+    width: 100%;
+    padding: 20px;
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    
+
+    &__input-group {
+        margin-bottom: 10px;
+    }
+
+    &__label {
+        width: 100%;
+        font-size: 16.5px;
+        color: #222222;
+    }
+
+    &__input {
+        padding: 10.5px;
+        color: #222222;
+        &:focus {
+            box-shadow: none;
+            border: 1px solid #ddd;
+        }
+        &:active {
+            box-shadow: none;
+            border: 1px solid #ddd;
+        }
+    }
+
+    &__btn {
+        width: 100%;
+        padding: 16.5px 0px;
+        border-radius: 4px;
+        background-color: #e80;
+        color: #fff;
+        border: 1px solid #d87b00;
+    }
+    
+    &__btn-register {
+        width: 100%;
+        padding: 16.5px 0px;
+        border-radius: 4px;
+        background-color: #525252;
+        color: #fff;
+        border: 1px solid #545454;
+
+        &:hover{
+            background-color: #525252;
+            color: #fff;
+            border: 1px solid #545454;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@use "../config" as *;
+@use "../components/ui/_accordion.scss" as *;
+@use "../components/cards/_card-form.scss" as *;
+@use "../components/cards/_card-info.scss" as *;
+
+body{
+    background-color: #fff;
+}
+
+.inquiry{
+    &__title{
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin: 42px auto;
+        padding: 0 16px;
+        text-align: center;
+    }
+
+    &__description{
+        margin: 24px 0px;
+        text-align: center;
+    }
+}
