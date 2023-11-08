@@ -74,21 +74,61 @@ body{
     }
 
     @media only screen and (max-width: 1399.98px) {
+        &__title{
+            margin: 20px 0px;
+            font-size: 28px;
+        }
         &__content{
-            width: 80%;
+            width: 100%;
             margin: 0 auto;
     
             h3{
-                margin: 42px 0px;
-                font-size: 22px;
+                margin: 32px 0px;
+                font-size: 20px;
             }
     
             p, li{
-                font-size: 16px;
+                font-size: 14px;
             }
             p{
                 margin: 18px 0px;
+                font-size: 14px;
             }
+        }
+        &__tbl{
+            width: 100%;
+            margin: 0 auto;
+    
+            th{
+                font-size: 18px;
+            }
+            td{
+                padding: 16px;
+                font-size: 16px;
+            }
+    
+        }
+    }
+
+    @media only screen and (max-width: 991.98px) {
+        &__title{
+            font-size: 24px;
+        }
+        &__inner{
+            padding: 0px;
+        }
+        &__tbl{
+            width: 100%;
+            margin: 0 auto;
+    
+            th{
+                font-size: 16px;
+            }
+            td{
+                padding: 14px;
+                font-size: 14px;
+            }
+    
         }
     }
 }

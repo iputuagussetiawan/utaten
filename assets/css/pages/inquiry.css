@@ -37,6 +37,14 @@
   color: #f6542c;
   text-decoration: underline;
 }
+@media only screen and (max-width: 1399.98px) {
+  .accordion-custom .accordion-header .accordion-button {
+    font-size: 14px;
+  }
+  .accordion-custom .accordion-body {
+    font-size: 14px;
+  }
+}
 
 .card-form {
   width: 100%;
@@ -86,6 +94,14 @@
   color: #fff;
   border: 1px solid #545454;
 }
+@media only screen and (max-width: 1399.98px) {
+  .card-form__btn {
+    padding: 10px 0px;
+  }
+  .card-form__btn-register {
+    padding: 10px 0px;
+  }
+}
 
 .card-info {
   border: 1px solid #ddd;
@@ -114,6 +130,14 @@
   padding-left: 8px;
   border-left: 6px solid orange;
 }
+@media only screen and (max-width: 1399.98px) {
+  .card-info__content {
+    font-size: 14px;
+  }
+  .card-info__title {
+    font-size: 16px;
+  }
+}
 
 body {
   background-color: #fff;
@@ -130,4 +154,13 @@ body {
 .inquiry__description {
   margin: 24px 0px;
   text-align: center;
+}
+@media only screen and (max-width: 1399.98px) {
+  .inquiry__title {
+    font-size: 24px;
+    margin: 32px auto;
+  }
+  .inquiry__description {
+    margin: 20px 0px;
+  }
 }

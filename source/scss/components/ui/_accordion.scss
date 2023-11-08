@@ -42,4 +42,15 @@
             }
         }
     }
+
+    @media only screen and (max-width: 1399.98px) {
+        .accordion-header{
+            .accordion-button{
+                font-size: 14px;
+            }
+        }
+        .accordion-body{
+            font-size: 14px;
+        }
+    }
 }

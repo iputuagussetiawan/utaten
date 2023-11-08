@@ -144,6 +144,23 @@
             border: 1px solid #709FE0;
         }
     }
+
+    @media only screen and (max-width: 991.98px) {
+        &__logo{
+            max-width: 180px;
+            height: auto;
+        }
+        &__btn{
+            right: 24px;
+            font-size: 16px;
+        }
+    }
+
+    @media only screen and (max-width: 767.98px) {
+        &__btn{
+            font-size: 14px;
+        }
+    }
 }
 
 .navbar-simple{
@@ -173,6 +190,17 @@
             &:nth-child(odd) .nav-link{
                 background-image: linear-gradient( -45deg, #2a2c36 25%, #55565f 25%, #55565f 50%, #2a2c36 50%, #2a2c36 75%, #55565f 75%, #55565f );
                 background-size: 50px 50px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 991.98px) {
+        .navbar-nav{
+            grid-template-columns: repeat(2,1fr);
+            .nav-item{
+                .nav-link{
+                    font-size: 14px;
+                }
             }
         }
     }

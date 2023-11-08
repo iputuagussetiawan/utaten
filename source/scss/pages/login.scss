@@ -104,4 +104,20 @@
             height: 62%;
         }
     }
+    @media only screen and (max-width: 1399.98px) {
+        &__desc {
+            font-size: 14px;
+        }
+        &__label{
+            font-size: 14px;
+        }
+        &__btn,
+        &__btn-register{
+            padding: 10px 0px;
+            font-size: 14px;
+        }
+        &__forget-password {
+            font-size: 14px;
+        }
+    }
 }

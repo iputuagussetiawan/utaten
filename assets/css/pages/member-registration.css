@@ -55,3 +55,15 @@
   color: #fff;
   border: 1px solid #d87b00;
 }
+@media only screen and (max-width: 1399.98px) {
+  .member-registration__desc {
+    font-size: 14px;
+  }
+  .member-registration__label {
+    font-size: 14px;
+  }
+  .member-registration__btn {
+    padding: 10px 0px;
+    font-size: 14px;
+  }
+}

@@ -63,18 +63,53 @@ body {
   text-decoration: underline;
 }
 @media only screen and (max-width: 1399.98px) {
+  .agreement__title {
+    margin: 20px 0px;
+    font-size: 28px;
+  }
   .agreement__content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   .agreement__content h3 {
-    margin: 42px 0px;
-    font-size: 22px;
+    margin: 32px 0px;
+    font-size: 20px;
   }
   .agreement__content p, .agreement__content li {
-    font-size: 16px;
+    font-size: 14px;
   }
   .agreement__content p {
     margin: 18px 0px;
+    font-size: 14px;
+  }
+  .agreement__tbl {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .agreement__tbl th {
+    font-size: 18px;
+  }
+  .agreement__tbl td {
+    padding: 16px;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .agreement__title {
+    font-size: 24px;
+  }
+  .agreement__inner {
+    padding: 0px;
+  }
+  .agreement__tbl {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .agreement__tbl th {
+    font-size: 16px;
+  }
+  .agreement__tbl td {
+    padding: 14px;
+    font-size: 14px;
   }
 }

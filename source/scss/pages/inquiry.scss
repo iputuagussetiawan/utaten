@@ -21,4 +21,15 @@ body{
         margin: 24px 0px;
         text-align: center;
     }
+
+    @media only screen and (max-width: 1399.98px) {
+        &__title{
+            font-size: 24px;
+            margin: 32px auto;
+        }
+    
+        &__description{
+            margin: 20px 0px;
+        }
+    }
 }

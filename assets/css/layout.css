@@ -12656,6 +12656,21 @@ textarea.form-control-lg {
   color: #fff;
   border: 1px solid #709FE0;
 }
+@media only screen and (max-width: 991.98px) {
+  .navbar-top__logo {
+    max-width: 180px;
+    height: auto;
+  }
+  .navbar-top__btn {
+    right: 24px;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .navbar-top__btn {
+    font-size: 14px;
+  }
+}
 
 .navbar-simple {
   padding: 0px;
@@ -12682,6 +12697,14 @@ textarea.form-control-lg {
 .navbar-simple .navbar-nav .nav-item:nth-child(odd) .nav-link {
   background-image: linear-gradient(-45deg, #2a2c36 25%, #55565f 25%, #55565f 50%, #2a2c36 50%, #2a2c36 75%, #55565f 75%, #55565f);
   background-size: 50px 50px;
+}
+@media only screen and (max-width: 991.98px) {
+  .navbar-simple .navbar-nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .navbar-simple .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
 }
 
 .footer {
@@ -12951,6 +12974,16 @@ textarea.form-control-lg {
   .footer-two__copyright {
     font-size: 16px;
     padding: 42px 0px;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .footer-two__menu {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .footer-two__copyright {
+    font-size: 12px;
+    padding: 24px 0px;
   }
 }
 
