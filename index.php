@@ -113,7 +113,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="main-swiper__slide">
-                        <a href="/product-detail.php" class="main-swiper__container">
+                        <a href="https://utaten.com/specialArticle/index/4026" target="_blank" class="main-swiper__container">
                             <div class="main-swiper__image-container">
                                 <img src="assets/images/swiper-1.jpg" alt="" class="main-swiper__image">
                             </div>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="main-swiper__slide">
-                        <a href="/product-detail.php" class="main-swiper__container">
+                        <a href="/product-detail.php" target="_blank" class="main-swiper__container">
                             <div class="main-swiper__image-container">
                                 <img src="assets/images/swiper-2.jpeg" alt="" class="main-swiper__image">
                             </div>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="main-swiper__slide">
-                        <a href="/product-detail.php" class="main-swiper__container">
+                        <a href="/product-detail.php" target="_blank" class="main-swiper__container">
                             <div class="main-swiper__image-container">
                                 <img src="assets/images/swiper-3.jpeg" alt="" class="main-swiper__image">
                             </div>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="main-swiper__slide">
-                        <a href="/product-detail.php" class="main-swiper__container">
+                        <a href="/product-detail.php" target="_blank" class="main-swiper__container">
                             <div class="main-swiper__image-container">
                                 <img src="assets/images/swiper-4.jpeg" alt="" class="main-swiper__image">
                             </div>
@@ -230,7 +230,7 @@
                     STORE by UtaTenとは、アーティストと1対1でコミュニケーションが楽しめる、特典会アプリ「チェキチャ」の特典が付いた商品が購入できるお店です。
                 </div>
             </div>
-            <a href="#" class="chekicha">
+            <a href="https://utaten.com/news/index/60423"  target="_blank" class="chekicha">
                 <img src="assets/images/checkica.jpg" alt="" class="chekicha__image">
             </a>
             <div class="product-list">

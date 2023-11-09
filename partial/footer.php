@@ -52,19 +52,19 @@
                     <p class="footer-container__about-text">
                         ご購入された商品の販売情報はオリコン・リサーチ株式会社、株式会社阪神コンテンツリンクへ集計データとして提供され反映されます。
                     </p>
-                    <a href="#" class="footer-container__about-link">
+                    <a href="https://www.oricon.co.jp/rank/about/" target="_blank" class="footer-container__about-link">
                         オリコンランキング調査協力店一覧
                     </a>
                     <span>・</span>
-                    <a href="#" class="footer-container__about-link">
+                    <a href="https://www.billboard-japan.com/common/special/others/storelist/storelist.html" target="_blank" class="footer-container__about-link">
                         ビルボードジャパンチャート協力店一覧
                     </a>
                 </div>
             </div>
             <div class="footer__menu">
-                <div class="footer__logo-container">
+                <a href="/" class="footer__logo-container">
                     <img src="assets/images/logo.png" alt="" class="footer__logo">
-                </div>
+                </a>
                 <div class="row footer__menu-container text-center">
                     <div class="col-2 col-md-2 col-lg-2 footer__menu-link-container">
                         <a href="/agreement.php" class="footer__menu-link">利用規約</a>
