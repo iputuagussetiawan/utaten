@@ -2026,6 +2026,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./source/scss/pages/my-page.scss":
+/*!****************************************!*\
+  !*** ./source/scss/pages/my-page.scss ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./source/scss/layout.scss":
 /*!*********************************!*\
   !*** ./source/scss/layout.scss ***!
@@ -12528,6 +12541,7 @@ _shared_swiper_core_mjs__WEBPACK_IMPORTED_MODULE_0__.S.use(modules);
 /******/ 			"assets/css/pages/product-detail": 0,
 /******/ 			"assets/css/pages/home": 0,
 /******/ 			"assets/css/layout": 0,
+/******/ 			"assets/css/pages/my-page": 0,
 /******/ 			"assets/css/pages/inquiry": 0,
 /******/ 			"assets/css/pages/agreement": 0,
 /******/ 			"assets/css/pages/login": 0
@@ -12580,15 +12594,16 @@ _shared_swiper_core_mjs__WEBPACK_IMPORTED_MODULE_0__.S.use(modules);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/js/layout.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/layout.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/home.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/product-detail.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/product-list.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/member-registration.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/login.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/agreement.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/inquiry.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/js/layout.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/layout.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/home.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/product-detail.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/product-list.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/member-registration.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/login.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/agreement.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/inquiry.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/pages/member-registration","assets/css/pages/product-list","assets/css/pages/product-detail","assets/css/pages/home","assets/css/layout","assets/css/pages/my-page","assets/css/pages/inquiry","assets/css/pages/agreement","assets/css/pages/login"], () => (__webpack_require__("./source/scss/pages/my-page.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

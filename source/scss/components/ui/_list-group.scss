@@ -1,0 +1,14 @@
+.list-group{
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-color: #ddd;
+        padding: 16px;
+        position: relative;
+        text-decoration: none;
+        color: #222;
+    }
+
+
+}

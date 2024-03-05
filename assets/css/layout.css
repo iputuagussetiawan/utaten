@@ -12987,6 +12987,33 @@ textarea.form-control-lg {
   }
 }
 
+.section-title {
+  font-size: 28.8px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 40.5px auto;
+  text-align: center;
+}
+
+.section-label {
+  border-left: 6px solid #e80;
+  font-size: 16.5px;
+  font-weight: bold;
+  margin: 16.5px 0;
+  padding: 3.3px 0px 3.3px 8.25px;
+}
+
+.list-group__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-color: #ddd;
+  padding: 16px;
+  position: relative;
+  text-decoration: none;
+  color: #222;
+}
+
 @font-face {
   font-family: "Hiragino Kaku Gothic ProN W3";
   src: url("/source/font/Hiragino/HiraginoKakuGothicProNW3.otf");
@@ -12998,7 +13025,6 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Hiragino Kaku Gothic ProN W3";
-  background-color: #F8F8F8;
 }
 
 hr {

@@ -9,6 +9,7 @@ mix.js('source/js/layout.js', 'assets/js/')
     .sass('source/scss/pages/login.scss', 'assets/css/pages')
     .sass('source/scss/pages/agreement.scss', 'assets/css/pages')
     .sass('source/scss/pages/inquiry.scss', 'assets/css/pages')
+    .sass('source/scss/pages/my-page.scss', 'assets/css/pages')
 mix.options({
     processCssUrls: false, //Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
 });

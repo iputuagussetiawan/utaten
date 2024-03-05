@@ -54,7 +54,7 @@
   border: 1px solid #ddd;
 }
 .card-form__input-group {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .card-form__label {
   width: 100%;
@@ -93,6 +93,18 @@
   background-color: #525252;
   color: #fff;
   border: 1px solid #545454;
+}
+.card-form__dob {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  max-width: 350px;
+}
+.card-form__link {
+  color: #F6542C;
+  display: inline-block;
+  position: relative;
+  text-decoration: underline;
 }
 @media only screen and (max-width: 1399.98px) {
   .card-form__btn {

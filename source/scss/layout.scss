@@ -19,8 +19,10 @@
 // }
 @use '../../node_modules/bootstrap/scss/bootstrap.scss';
 @use '../../node_modules/swiper/swiper.scss';
-@use 'components/header';
-@use 'components/footer';
+@use 'components/_header.scss';
+@use 'components/_footer.scss';
+@use 'components/_section.scss';
+@use 'components/ui/_list-group.scss';
 
 @font-face {
     font-family: 'Hiragino Kaku Gothic ProN W3';
@@ -48,7 +50,7 @@
 
 body {
     font-family: 'Hiragino Kaku Gothic ProN W3';
-    background-color: #F8F8F8;
+    // background-color: #F8F8F8;
 }
 
 hr{
