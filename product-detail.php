@@ -13,7 +13,7 @@
 <body>
     <?php include_once './partial/header.php'; ?>
 
-    <div class="product-detail">
+    <section class="product-detail">
         <div class="container product-detail__container">
             <div class="row product-detail__row">
                 <div class="col-12">
@@ -89,9 +89,47 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="product-item">
+    <section class="lottery">
+        <div class="container">
+            <div class="lottery__inner">
+                <h2 class="lottery__title">こちらの商品は抽選販売になります</h2>
+                <button type="submit" class="lottery__button">以下のアイテム一覧からご応募ください</button>
+                <dl class="lottery__dateDetail">
+                    <dt>※応募期間</dt>
+                    <dd>2024/03/03 13:45 〜 2024/03/09 13:45</dd>
+                </dl>
+                <dl class="lottery__dateDetail">
+                    <dt>※当選発表日</dt>
+                    <dd>2024/03/11 13:45</dd>
+                </dl>
+
+                <div class="lottery__content">
+
+                    <p class="lottery__content-title">【抽選商品に関して】</p>
+                    <ul>
+                        <li>必ずしも応募数分が当たるとは限りません。</li>
+                        <li>当選数分の商品を指定期限内までにご購入いただくこととなります。</li>
+                        <li>当選時に数量の増減は一切いたしかねます。</li>
+                    </ul>
+                </div>
+
+                <div class="lottery__links">
+                    <h3 class="lottery__link-title">
+                        ＜この商品はシリアルコード転売防止対策商品となります＞  
+                    </h3>
+                    <ul>
+                        <li><a href="">こちらの商品の購入はお客様のイベント時に使うスマートフォンで購入ください。</a></li>
+                        <li><a href="">事前に「チェキチャ！」アプリをインストールを頂いた上で購入頂く必要があります。</a></li>
+                        <li><a class="text-red" href="">こちらからご利用の端末を認証してください。</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-item">
         <div class="product-item__container">
             <h2 class="product-item__title text-center">アイテム一覧</h2>
 
@@ -164,9 +202,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="product-item-detail">
+    <section class="product-item-detail">
         <div class="container product-item-detail__container">
             <h2 class="product-item-detail__title text-center">アイテム詳細</h2>
 
@@ -448,9 +486,9 @@
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="register-banner">
+    <section class="register-banner">
         <div class="register-banner__container">
             <p class="register-banner__label">
                 ＼ 以下より会員登録をお願いします ／
@@ -461,7 +499,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
     <?php include_once './partial/footer.php'; ?>
     <script src="assets/js/layout.js"></script>
 </body>
