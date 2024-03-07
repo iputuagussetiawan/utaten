@@ -779,6 +779,9 @@
   background: #e80;
   color: #fff;
 }
+.lottery__button.disabled {
+  background: #787878;
+}
 .lottery__dateDetail {
   text-align: left;
   display: table;
@@ -820,6 +823,7 @@
 .lottery__link-title {
   font-size: 13.5px;
   font-weight: bold;
+  text-align: left;
 }
 
 .footer {

@@ -909,6 +909,10 @@
         font-size: 1.05em;
         background: #e80;
         color: #fff;
+
+        &.disabled{
+            background: #787878;
+        }
         
     }
 
@@ -963,6 +967,7 @@
     &__link-title{
         font-size: 13.5px;
         font-weight: bold;
+        text-align: left;
     }
 }
 

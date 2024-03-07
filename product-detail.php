@@ -129,6 +129,41 @@
         </div>
     </section>
 
+    
+    <section class="lottery">
+        <div class="container">
+            <div class="lottery__inner">
+                <h2 class="lottery__title">こちらの商品は抽選販売になります</h2>
+                <button type="submit" class="lottery__button disabled ">受付期間は終了致しました。</button>
+                <p class="text-center">
+                    ※抽選発表は終了しました。
+                </p>
+                <div class="lottery__content">
+
+                    <p class="lottery__content-title">【抽選商品に関して】</p>
+                    <ul>
+                        <li>必ずしも応募数分が当たるとは限りません。</li>
+                        <li>当選数分の商品を指定期限内までにご購入いただくこととなります。</li>
+                        <li>当選時に数量の増減は一切いたしかねます。</li>
+                    </ul>
+                </div>
+
+                <div class="lottery__links">
+                    <h3 class="lottery__link-title">
+                        ＜この商品はシリアルコード転売防止対策商品となります＞  
+                    </h3>
+                    <ul>
+                        <li><a href="">こちらの商品の購入はお客様のイベント時に使うスマートフォンで購入ください。</a></li>
+                        <li><a href="">事前に「チェキチャ！」アプリをインストールを頂いた上で購入頂く必要があります。</a></li>
+                        <li><a class="text-red" href="">こちらからご利用の端末を認証してください。</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <section class="product-item">
         <div class="product-item__container">
             <h2 class="product-item__title text-center">アイテム一覧</h2>
